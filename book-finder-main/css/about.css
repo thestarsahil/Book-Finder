@@ -1,0 +1,30 @@
+.title {
+  font-size: 4em;
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+}
+
+.col-lg-7 {
+  background: var(--result-card-color);
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.description {
+  padding: 2rem 2rem;
+  text-align: left;
+}
+
+.illustration {
+  width: 100%;
+  margin: 5px auto;
+  max-width: 28rem;
+  display: block;
+}
+
+@media only screen and (max-width: 400px) {
+  .title {
+    font-size: 3em;
+  }
+}
